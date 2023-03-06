@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/login.css">
+  </head>
+<style>
+body {
+  width: 100%;
+  background-image: url(./IMG/WEB.png);
+  background-size: cover;
+  background-position-y: -60px;
+}</style>
+  <body>
+   <script src="./Style/login.js"></script>
+        <div class="container">
+            <div class="row">
+                <div class="colm-form">
+                    <div class="form-container">
+                        <div class="form-head">.</div>
+                        <input id="user" type="text" placeholder="Tên đăng nhập">
+                        <input id="password" type="password" placeholder="Mật khẩu">
+                        <div class="term">
+                            <input type="checkbox" style="width: 20px; margin-left: 12px;"> <p>Lưu mật khẩu ?</p>
+                        </div>
+                        <div id="log"></div>
+                        <button class="btn-login" onclick="login()"> Đăng nhập</button>
+                        <a id="log"></a>
+                        <a href="#" style="float: left; margin-left: 12px;">Quên mật khẩu?</a> <a href="./signup.html" style="float: right; margin-right: 12px;">Đăng ký ngay</a>
+                        <br><br>
+                        <p style="color: rgb(255, 255, 255);font-size: 17px; padding: 5px;">Hoặc sử dụng các tài khoản sau</p>
+                        <div class="id">
+                            <img src="./IMG/iconfb.png" alt=""> 
+                            
+                            <img src="./IMG/google.png" alt="">
+                            
+                    </div>
+                </div>
+            </div>
+  </body>
+</html>
